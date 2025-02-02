@@ -199,3 +199,71 @@ footer p {
         font-size: 0.9rem;
     }
 }
+
+/* Mobilanpassning */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 10px;
+        background-size: cover;
+    }
+
+    header .header-logo {
+        height: 120px; /* Mindre logo på mobilen */
+    }
+
+    #store {
+        padding: 30px 10px;
+        margin: 20px 0;
+    }
+
+    #store h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .ecwid-product-browser-grid .ecwid-product-card {
+        flex: 0 0 100%;
+        padding: 15px;
+    }
+
+    .ecwid-product-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 40px 5px;
+    }
+
+    header .header-logo {
+        height: 100px; /* Mindre logo */
+    }
+
+    #store h2 {
+        font-size: 1.5rem;
+    }
+
+    .ecwid-product-card {
+        padding: 10px;
+    }
+
+    .ecwid-product-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .ecwid-product-card .ecwid-product-card-price {
+        font-size: 1.4rem;
+    }
+
+    .ecwid-product-card .ecwid-product-card-add-to-cart {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
